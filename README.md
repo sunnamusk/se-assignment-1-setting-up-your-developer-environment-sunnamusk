@@ -52,3 +52,80 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+
+
+
+
+1. Operating System
+Choice: Windows 10 Pro
+Reason: Compatibility with various development tools and corporate requirements.
+2. Integrated Development Environment (IDE)
+IDE: Visual Studio Code (VS Code)
+Extensions Installed:
+Prettier - Code formatter
+ESLint - JavaScript linter
+Live Server - Local test server
+Bracket Pair Colorizer - Enhances code readability
+3. Version Control
+Tool: Git
+Configuration:
+Installed Git from git-scm.com
+Set up global configurations:
+bash
+Download
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+4. Programming Languages
+Languages: JavaScript, Python
+JavaScript Setup:
+Installed Node.js from nodejs.org
+Configured npm (Node Package Manager)
+Python Setup:
+Installed Python from python.org
+Set up virtual environments using venv:
+bash
+Download
+Copy code
+python -m venv myenv
+myenv\Scripts\activate
+5. Databases
+Database: MySQL
+Setup:
+Installed MySQL from mysql.com
+Configured local server and set initial root password
+Created development databases using MySQL Workbench
+6. Web Servers
+Server: Apache HTTP Server
+Setup:
+Installed using XAMPP from apachefriends.org
+Configured httpd.conf to handle personal development needs
+7. Additional Tools
+Docker:
+Installed Docker Desktop from docker.com
+Used for containerization of applications
+Postman:
+Installed Postman from postman.com for API development and testing
+8. Customizations
+VS Code Customizations:
+Theme: Dark+ (default dark)
+Keybindings: Customized shortcuts for efficiency
+Settings: Enabled autosave and format on save
+9. Troubleshooting
+Node.js Installation Issues:
+Problem: Node.js installation was not recognized by the system.
+Solution: Added Node.js path to the system environment variables.
+Python Virtual Environment Activation:
+Problem: activate script was not running in the command prompt.
+Solution: Used PowerShell to activate the environment, ensuring execution policies allowed script running.
+10. Backup and Recovery
+Strategy:
+Regular backups of IDE settings and important configurations using GitHub Gists.
+Use of cloud storage (Google Drive) for project backups.
+11. Security Measures
+Firewall Configuration:
+Configured Windows Defender Firewall to allow specific inbound and outbound rules for development tools.
+Regular Updates:
+Ensured all tools and software are regularly updated to their latest versions to mitigate security risks."""g
